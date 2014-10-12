@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.dreamers.patterns;
+package com.dreamers.patterns.singleton;
 
 /**
  * DummySingleton Class.

@@ -1,11 +1,14 @@
 /**
  * 
  */
-package com.dreamers.patterns;
+package com.dreamers.patterns.singleton;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import com.dreamers.patterns.singleton.DummySingleton;
+import com.dreamers.patterns.singleton.EnumSingleton;
 
 /**
  * Test singleton functionality.
@@ -16,7 +19,7 @@ import org.junit.Test;
 public class EnumSingletonTest {
 
 	/**
-	 * Test method for {@link com.dreamers.patterns.EnumSingleton#getInstance()}.
+	 * Test method for {@link com.dreamers.patterns.singleton.EnumSingleton#getInstance()}.
 	 */
 	@Test
 	public void testGetInstance() {
